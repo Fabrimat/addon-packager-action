@@ -1,0 +1,9 @@
+name: 'Bedrock Addon Packager'
+description: 'Action to package every directory into a .mcaddon'
+author: 'Fabrimat'
+branding:
+  icon: archive
+  color: blue
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
